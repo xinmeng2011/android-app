@@ -87,6 +87,10 @@ edtSearch.setHint("即将为您搜索 " + mTag);
 						v.setTag(1);
 						edtSearch.clearFocus();
 						String searchContent = edtSearch.getText().toString();
+						if(searchContent.length() == 0){
+							Toast.makeText(SearchActivity.this,getResources().getString(R.string.search_empty_tips) , Toast.LENGTH_SHORT).show();
+							return true;
+						}
 						searchDao.setValue(mTag, searchContent);
 						new MyTask().execute(searchDao);
 
