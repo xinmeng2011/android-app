@@ -22,7 +22,7 @@
     <string name="DetailsCollect">收藏</string>
     <string name="DetailsShare">分享</string>
     <string name="DetailsDiscuss">评论</string>
-
+	<string name="search_empty_tips">请输入搜索内容</string>
     <!-- 用户中心 -->
     <string name="user_center">个人中心</string>
     <string name="user_login_alert">你终于来啦，快登录吧</string>

@@ -18,6 +18,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.Toast;
 import cn.eoe.app.R;
 import cn.eoe.app.adapter.BasePageAdapter;
 import cn.eoe.app.biz.BaseDao;
